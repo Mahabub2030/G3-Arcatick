@@ -99,3 +99,44 @@ nav li a{
 
 
 /* header style ends here */
+
+/* main style stars here */
+main{
+        max-width: 1440px;
+        margin: 0 auto;
+}
+
+
+/* main style end here */
+
+/* tems style star here */
+.tems-contianer{
+        display: flex;
+        align-items: center;
+}
+.tems-img{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+       gap: 1.5rem;
+}
+.tems-contant{
+        padding-left: 70px;
+        padding-right: 70px;
+}
+.tems-title{
+        font-size: 2.8rem;
+}
+.q-list{
+        color: #727272;
+        font-weight: 500;
+
+}
+.f-list{
+        color: #FF900E;
+        font-weight: 700;
+
+}
+.discription{
+        color: #727272;
+}
+/* tems style ends here */
